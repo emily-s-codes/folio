@@ -51,7 +51,7 @@ header {
 
 header nav {
     display: flex;
-    border-bottom: 2px solid #282B29;
+    border-bottom: 2px solid #042A5A;
     font-family: 'OpenSans-Light', sans-serif;
     font-size: 1rem;
     padding: 1vh 10vw;
@@ -66,7 +66,11 @@ header h1 {
     font-size: 7rem;
     font-weight: lighter;
     text-align: center;
-    border-bottom: 2px solid #282B29;
+    border-bottom: 2px solid #042A5A;
+}
+
+header h1 span {
+    letter-spacing: -0.65rem;
 }
 
 header figure {
@@ -178,7 +182,6 @@ main section.gold {
     background-color: #DEB873;
     padding-top: 8vh;
     color: #7D2222;
-    /* padding: 10vh 5vw 10vh 5vw; */
 }
 
 main section.gold p.section__numeral {
@@ -196,7 +199,7 @@ main section.gold section.main__works {
 
 main section.gold p.main__works__description {
     display: inline-block;
-    width: 30vw;
+    width: 40vw;
     margin: 5vh auto 5vh 5vw;
     font-family: 'OpenSans-Light', sans-serif;
     font-size: 1rem;
@@ -205,25 +208,64 @@ main section.gold p.main__works__description {
 }
 
 main section.gold div {
-    padding: 5vh 0 10vh 0;
-    display: flex;
+    margin: 5vh 0 20vh 0;
     font-family: 'Athene', serif;
     font-size: 5rem;
     font-weight: lighter;
-    justify-content: space-between;
 }
 
-main section.gold section.main__works div.main__works__title {}
-
-
-div.main__works__title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+div.main__works__marconatto {
+    background-image: url("../img/bg-marconatto-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 61vw;
+    background-position: right;
+    height: 50vh;
 }
 
-main section.gold div img {
-    width: 50vw;
+main section.gold div.main__works__marconatto h3 {
+    font-size: 5rem;
+    display: inline-block;
+    width: 25vw;
+}
+
+div.main__works__kollwitz {
+    background-image: url("../img/kathe_cover-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 61vw;
+    background-position: left;
+    height: 50vh;
+}
+
+main section.gold div.main__works__kollwitz div h3 {
+    font-size: 5rem;
+    text-align: right;
+}
+
+div.main__works__victor {
+    background-image: url("../img/bg-nicole-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 61vw;
+    background-position: right;
+    height: 50vh;
+}
+
+main section.gold div.main__works__victor h3 {
+    font-size: 5rem;
+    display: inline-block;
+    width: 35vw;
+}
+
+div.main__works__snowboard {
+    background-image: url("../img/boa_cover-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 61vw;
+    background-position: left;
+    height: 50vh;
+}
+
+main section.gold div.main__works__snowboard div h3 {
+    font-size: 5rem;
+    text-align: right;
 }
 
 /* ===================
