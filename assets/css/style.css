@@ -5,6 +5,13 @@
     scroll-behavior: smooth;
 }
 
+html {
+    font-size: 10px;
+    max-width: 1920px;
+}
+
+
+
 /* ===================
     assets
 
@@ -16,3 +23,250 @@
     #D2D2D2
     #388883
 ====================== */
+
+@font-face {
+    font-family: 'Athene';
+    src: url("../fonts/Athene.otf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+/* ===================
+    header
+====================== */
+
+header {
+    background-color: #EFE8D7;
+    color: #042A5A;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    border-bottom: 2px solid #282B29;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 1rem;
+    padding: 1vh 10vw;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+header h1 {
+    display: inline-block;
+    width: 80vw;
+    font-family: 'Athene', serif;
+    font-size: 7rem;
+    font-weight: lighter;
+    text-align: center;
+    border-bottom: 2px solid #282B29;
+}
+
+header figure {
+    display: inline-block;
+    margin: 5vh auto 8vh auto;
+    width: 20%;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+header figure img {
+    width: 100%;
+}
+
+header figure figcaption {
+    margin: 2vh auto;
+    text-align: left;
+}
+
+header figure figcaption span {
+    font-family: 'Athene', serif;
+}
+
+/* ===================
+    main PINK
+====================== */
+
+main section.pink {
+    background-color: #F4C4C4;
+    padding-top: 8vh;
+}
+
+main section.pink p.section__numeral {
+    font-family: 'OpenSans-Light', sans-serif;
+    margin: 0 auto 5vh 8vh;
+}
+
+main section h2 {
+    font-family: 'Athene', serif;
+    font-size: 7rem;
+    font-weight: lighter;
+}
+
+main section.pink section.main__section__release {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    justify-content: space-evenly;
+    height: 60vh;
+    padding-right: 5vw;
+}
+
+main section.pink section.main__section__release p.main__section__releaseintro {
+    line-height: 2rem;
+    width: 40vw;
+}
+
+main section.pink section section.main__section__table {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main section.pink section section.main__section__table p.main__section__tableheader {
+    border-bottom: 2px solid #282B29;
+    text-align: right;
+}
+
+main section.pink section section.main__section__table article.main__section__tablerows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+main section.pink section section.main__section__table article.main__section__tablerows p.main__section__tableexplainer {
+    width: 6vw;
+    text-align: right;
+    font-size: 1rem;
+}
+
+main section.pink section section.main__section__table article {
+    border-bottom: 2px solid #282B29;
+}
+
+div.main__section__tablevalues {
+    display: flex;
+    align-items: baseline;
+}
+
+div.main__section__tablevalues p:nth-of-type(2) {
+    padding-left: 1vw;
+    font-size: 1.4rem;
+}
+
+main section img.main__section__releasestempel {
+    width: 8vh;
+}
+
+/* ===================
+    main GOLD
+====================== */
+
+main section.gold {
+    background-color: #DEB873;
+    padding-top: 8vh;
+    color: #7D2222;
+    /* padding: 10vh 5vw 10vh 5vw; */
+}
+
+main section.gold p.section__numeral {
+    text-align: right;
+    margin: 0 5vw 3vh auto;
+}
+
+main section.gold h2 {
+    text-align: right;
+}
+
+main section.gold section.main__works {
+    padding: 10vh 5vw 10vh 5vw;
+}
+
+main section.gold p.main__works__description {
+    display: inline-block;
+    width: 30vw;
+    margin: 5vh auto 5vh 5vw;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+
+main section.gold div {
+    padding: 5vh 0 10vh 0;
+    display: flex;
+    font-family: 'Athene', serif;
+    font-size: 5rem;
+    font-weight: lighter;
+    justify-content: space-between;
+}
+
+main section.gold section.main__works div.main__works__title {}
+
+
+div.main__works__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main section.gold div img {
+    width: 50vw;
+}
+
+/* ===================
+    footer
+====================== */
+
+footer {
+    background-color: #D2D2D2;
+    padding-top: 8vh;
+    padding-right: 5vw;
+    padding-bottom: 3vh;
+    color: #388883;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+
+footer p.section__numeral {
+    margin: 0 auto 5vh 8vh;
+}
+
+footer h2 {
+    font-family: 'Athene', serif;
+    font-size: 7rem;
+    font-weight: lighter;
+}
+
+footer article.footer__invitation {
+    width: 16vw;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-left: 40vw;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+footer ul li {
+    padding: 0.5vh;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #388883;
+    font-size: 1.2rem;
+}
