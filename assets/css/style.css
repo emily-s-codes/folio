@@ -197,7 +197,7 @@ main section.gold h2 {
 }
 
 main section.gold section.main__works {
-    padding: 10vh 5vw 10vh 5vw;
+    padding: 10vh 5vw 5vh 5vw;
 }
 
 main section.gold p.main__works__description {
@@ -211,7 +211,7 @@ main section.gold p.main__works__description {
 }
 
 main section.gold div {
-    margin: 5vh 0 20vh 0;
+    margin: 25vh 0;
     font-family: 'Athene', serif;
     font-size: 5rem;
     font-weight: lighter;
