@@ -60,6 +60,10 @@ header nav {
     padding: 1vh 10vw;
     justify-content: space-between;
     margin-bottom: 5vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #EFE8D7;
 }
 
 header h1 {
@@ -69,6 +73,7 @@ header h1 {
     font-size: 7rem;
     font-weight: lighter;
     text-align: center;
+    padding-top: 5vh;
     border-bottom: 2px solid #042A5A;
 }
 
